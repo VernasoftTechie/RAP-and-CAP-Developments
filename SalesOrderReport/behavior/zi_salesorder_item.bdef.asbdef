@@ -1,0 +1,8 @@
+managed;
+strict ( 2 );
+
+// Read-only, no persistence declaration - VBAP stays owned by standard SAP logic.
+define behavior for ZI_SalesOrderItem alias SalesOrderItem
+{
+  association _Header;
+}
