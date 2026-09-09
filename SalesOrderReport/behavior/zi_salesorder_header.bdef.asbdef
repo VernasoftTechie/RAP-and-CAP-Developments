@@ -1,0 +1,9 @@
+managed;
+strict ( 2 );
+
+// No "persistent table" and no create/update/delete operations are declared,
+// which makes this a read-only reporting BO (VBAK stays owned by standard SAP logic).
+define behavior for ZI_SalesOrderHeader alias SalesOrderHeader
+{
+  association _Item;
+}
