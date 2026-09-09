@@ -1,0 +1,7 @@
+projection;
+strict ( 2 );
+
+define behavior for ZC_SalesOrderHeader alias SalesOrderHeader
+{
+  use association _Item;
+}
