@@ -1,0 +1,36 @@
+@Metadata.layer: #CORE
+
+annotate entity ZC_SalesOrderItem with
+{
+  @UI.lineItem: [{ position: 10 }]
+  SalesOrderItem;
+
+  @UI.lineItem: [{ position: 20 }]
+  Material;
+
+  @UI.lineItem: [{ position: 30 }]
+  ItemDescription;
+
+  @UI.lineItem: [{ position: 40 }]
+  OrderQuantity;
+
+  @UI.lineItem: [{ position: 50 }]
+  SalesUnit;
+
+  @UI.lineItem: [{ position: 60 }]
+  NetPrice;
+
+  @UI.lineItem: [{ position: 70 }]
+  NetValue;
+
+  @UI.lineItem: [{ position: 80 }]
+  Currency;
+
+  @UI.lineItem: [{ position: 90 }]
+  Plant;
+
+  ItemCategory;
+  StorageLocation;
+  MaterialGroup;
+  RejectionReason;
+}

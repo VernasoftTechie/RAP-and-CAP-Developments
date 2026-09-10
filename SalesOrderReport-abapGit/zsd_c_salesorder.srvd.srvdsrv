@@ -1,0 +1,5 @@
+@EndUserText.label: 'Sales Order Report - Service Definition'
+define service ZSD_C_SALESORDER {
+  expose ZC_SalesOrderHeader as SalesOrderHeader ;
+  expose ZC_SalesOrderItem   as SalesOrderItem ;
+}
